@@ -2,3 +2,4 @@ tools/mapping.local.json
 __pycache__/
 *.pyc
 .DS_Store
+_preview.html
