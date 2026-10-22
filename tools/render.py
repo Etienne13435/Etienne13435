@@ -7,6 +7,7 @@ the snapshot, so what you can see here is what the profile can show.
 """
 import json
 import os
+import re
 from datetime import date
 
 import charts
@@ -155,14 +156,23 @@ BLOCKS = [
 ]
 
 
+def inline_html(text):
+    """GitHub does not parse Markdown inside a raw HTML block, so centred
+    paragraphs have to carry real tags instead of ** and []()."""
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
+    text = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", text)
+    return text.replace("  \n", "<br/>\n")
+
+
+
 def md_of(blocks):
     o = []
     for b in blocks:
         k = b[0]
         if k == "h1c":
-            o.append(f'<h1 align="center">{b[1]}</h1>')
+            o.append(f'<h1 align="center">{inline_html(b[1])}</h1>')
         elif k == "pc":
-            o.append(f'<p align="center">{b[1]}</p>')
+            o.append(f'<p align="center">{inline_html(b[1])}</p>')
         elif k == "h2":
             o.append(f"## {b[1]}")
         elif k == "p":
@@ -170,7 +180,7 @@ def md_of(blocks):
         elif k == "ul":
             o.append("\n".join("- " + x for x in b[1]))
         elif k == "sub":
-            o.append(f'<p align="center"><sub>{b[1]}</sub></p>')
+            o.append(f'<p align="center"><sub>{inline_html(b[1])}</sub></p>')
         elif k == "badges":
             o.append('<p align="center">\n'
                      + "\n".join(f'<img alt="" src="{u}"/>' for u in b[1]) + "\n</p>")

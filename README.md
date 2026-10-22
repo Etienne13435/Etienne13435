@@ -1,7 +1,7 @@
 <h1 align="center">Etienne</h1>
 
-<p align="center">**Ich vermesse Märkte und baue die Werkzeuge dazu.**  
-475 GB geprüfte Marktdaten, 31 Instrumente in 5-Minuten-Auflösung, 16 Jahre Historie — ein Research-Stack von der Datenhaltung bis zum Live-Bot. Co-Owner von [Sawton](https://sawton.de).</p>
+<p align="center"><b>Ich vermesse Märkte und baue die Werkzeuge dazu.</b><br/>
+475 GB geprüfte Marktdaten, 31 Instrumente in 5-Minuten-Auflösung, 16 Jahre Historie — ein Research-Stack von der Datenhaltung bis zum Live-Bot. Co-Owner von <a href="https://sawton.de">Sawton</a>.</p>
 
 <p align="center">
 <img alt="" src="https://img.shields.io/github/followers/Etienne13435?style=for-the-badge&logo=github&label=followers"/>
