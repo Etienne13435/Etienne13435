@@ -77,9 +77,7 @@ def data_city(t, folders, h=455):
         o.append(txt(px + 17, yy, fam, t["text"], 12, 600))
         o.append(txt(W - 24, yy, de(g, 1 if g < 10 else 0) + " GB", t["muted"], 11.5,
                      anchor="end", mono=True))
-        o.append(f'<rect x="{px + 17}" y="{n(yy + 6)}" width="{n(max(2, 200 * g / total))}" '
-                 f'height="3" rx="1.5" fill="{pal[fam]}" fill-opacity="0.45"/>')
-        o.append(txt(px + 17, yy + 16, str(len(grp)) + " Ordner · "
+        o.append(txt(px + 17, yy + 15, str(len(grp)) + " Ordner · "
                      + de(sum(x["files"] for x in grp)) + " Dateien", t["faint"], 10.5))
         yy += 34
     o.append(footnote(t, "aus dem eigenen Datenkatalog · ein Turm = ein Ordner · "

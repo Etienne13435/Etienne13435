@@ -155,7 +155,8 @@ def repos(user):
     req = urllib.request.Request(f"https://api.github.com/users/{user}/repos?per_page=100",
                                  headers={"User-Agent": "profile-generator"})
     data = json.loads(urllib.request.urlopen(req, timeout=30).read().decode("utf-8"))
-    return [{"name": r["name"], "desc": r["description"] or "", "stars": r["stargazers_count"]}
+    return [{"name": r["name"], "desc": r["description"] or "",
+             "stars": r["stargazers_count"], "fork": bool(r["fork"])}
             for r in sorted(data, key=lambda r: (-r["stargazers_count"], r["name"]))]
 
 

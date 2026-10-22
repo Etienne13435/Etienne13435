@@ -29,22 +29,26 @@
   {
    "name": "multicharts-releases",
    "desc": "Multicharts desktop — public auto-update feed (installers + latest.json). Source is private.",
-   "stars": 0
+   "stars": 0,
+   "fork": false
   },
   {
    "name": "nautilus_trader",
    "desc": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-   "stars": 0
+   "stars": 0,
+   "fork": true
   },
   {
    "name": "nnt-releases",
    "desc": "NNT release binaries. The app auto-checks this repo's latest release for updates (see NNT_UPDATE_REPO).",
-   "stars": 0
+   "stars": 0,
+   "fork": false
   },
   {
    "name": "telo-releases",
    "desc": "Telo release downloads & auto-update feed. Source code lives in a private repository.",
-   "stars": 0
+   "stars": 0,
+   "fork": false
   }
  ]
 }

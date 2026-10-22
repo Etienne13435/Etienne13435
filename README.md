@@ -51,10 +51,9 @@ Die Reihenfolge, in der ich selbst arbeite, mit dem Grund daneben — nicht nach
 
 ## Hier anfangen
 
-- [multicharts-releases](https://github.com/Etienne13435/multicharts-releases) — Multicharts desktop — public auto-update feed (installers + latest.
-- [nautilus_trader](https://github.com/Etienne13435/nautilus_trader) — Production-grade Rust-native trading engine with deterministic event-driven architecture.
-- [nnt-releases](https://github.com/Etienne13435/nnt-releases) — NNT release binaries.
-- [telo-releases](https://github.com/Etienne13435/telo-releases) — Telo release downloads & auto-update feed.
+- [multicharts-releases](https://github.com/Etienne13435/multicharts-releases) — Multicharts desktop — public auto-update feed (installers + latest.json). Source is private.
+- [nnt-releases](https://github.com/Etienne13435/nnt-releases) — NNT release binaries. The app auto-checks this repo's latest release for updates (see NNT_UPDATE_REPO).
+- [telo-releases](https://github.com/Etienne13435/telo-releases) — Telo release downloads & auto-update feed. Source code lives in a private repository.
 
 Der Research-Code liegt privat. Öffentlich sind die Auto-Update-Feeds der Desktop-Apps, die daraus entstehen.
 

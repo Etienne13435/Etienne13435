@@ -69,6 +69,14 @@ def img(name, alt):
     return ("img", name, alt)
 
 
+def blurb(text, limit=118):
+    """One readable line: cut on a word boundary, never mid-abbreviation."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-—") + " …"
+
+
 BLOCKS = [
     ("h1c", "Etienne"),
     ("pc", "**Ich vermesse Märkte und baue die Werkzeuge dazu.**  \n"
@@ -112,8 +120,9 @@ BLOCKS = [
     img("curve", "BTCUSDT-Schlusskurse seit "
                  + s["btc_curve"][0][0][:4] + " auf log-Skala"),
     ("h2", "Hier anfangen"),
-    ("ul", [f"[{r['name']}](https://github.com/{USER}/{r['name']}) — "
-            f"{r['desc'].split('.')[0]}." for r in s["repos"]]),
+    # forks stay out: this list is "things I made", not "things I cloned"
+    ("ul", [f"[{r['name']}](https://github.com/{USER}/{r['name']}) — {blurb(r['desc'])}"
+            for r in s["repos"] if not r.get("fork")]),
     ("p", "Der Research-Code liegt privat. Öffentlich sind die Auto-Update-Feeds der "
           "Desktop-Apps, die daraus entstehen."),
     ("h2", "Themen"),
