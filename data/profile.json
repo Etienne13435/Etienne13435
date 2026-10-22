@@ -1,0 +1,50 @@
+{
+ "user": "Etienne13435",
+ "built": "2026-10-22",
+ "catalog_date": "2026-10-09",
+ "data_gb": 475.4,
+ "data_files": 866064,
+ "data_folders": 65,
+ "instruments": 31,
+ "bars_5m": 19933395,
+ "history_years": 16,
+ "tapes_graded": 84,
+ "tapes_grade_a": 63,
+ "tapes_grade_b": 17,
+ "tapes_grade_c": 4,
+ "contributions_365d": 1865,
+ "active_days_365d": 152,
+ "longest_streak_days": 69,
+ "families": [
+  "Altdata",
+  "Backups",
+  "Bibliothek",
+  "Live-Daten",
+  "Sonstiges",
+  "Store",
+  "Tapes",
+  "Vendor-Archive"
+ ],
+ "repos": [
+  {
+   "name": "multicharts-releases",
+   "desc": "Multicharts desktop — public auto-update feed (installers + latest.json). Source is private.",
+   "stars": 0
+  },
+  {
+   "name": "nautilus_trader",
+   "desc": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+   "stars": 0
+  },
+  {
+   "name": "nnt-releases",
+   "desc": "NNT release binaries. The app auto-checks this repo's latest release for updates (see NNT_UPDATE_REPO).",
+   "stars": 0
+  },
+  {
+   "name": "telo-releases",
+   "desc": "Telo release downloads & auto-update feed. Source code lives in a private repository.",
+   "stars": 0
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+# Etienne13435
+
+> Etienne — Auktionsmarkt-Theorie und Orderflow, diskretionär und mit Algos.
+> Co-Owner der Website-Agentur Sawton.
+
+Research-Stack: 475 GB geprüfte Marktdaten über 65 Ordner
+und 866.064 Dateien, 31 Instrumente in 5-Minuten-Auflösung,
+16 Jahre Historie. 84 Preis-Tapes sind nach zwölf Datenprüfungen benotet
+(63 A, 17 B, 4 C). Der Research-Code ist privat; öffentlich sind die
+Auto-Update-Feeds der daraus entstehenden Desktop-Apps.
+
+## Daten
+- [profile.json](./data/profile.json): die Kennzahlen dieses Profils
+- [snapshot.json](./data/snapshot.json): alles, woraus die Grafiken gezeichnet werden
+
+## Repos
+- [multicharts-releases](https://github.com/Etienne13435/multicharts-releases): Multicharts desktop — public auto-update feed (installers + latest.json). Source is private.
+- [nautilus_trader](https://github.com/Etienne13435/nautilus_trader): Production-grade Rust-native trading engine with deterministic event-driven architecture
+- [nnt-releases](https://github.com/Etienne13435/nnt-releases): NNT release binaries. The app auto-checks this repo's latest release for updates (see NNT_UPDATE_REPO).
+- [telo-releases](https://github.com/Etienne13435/telo-releases): Telo release downloads & auto-update feed. Source code lives in a private repository.

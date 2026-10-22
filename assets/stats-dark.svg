@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 128" width="900" height="128" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+<title id="t">Profil auf einen Blick</title>
+<desc id="d">GB Daten: 475 (geprüft und katalogisiert); Dateien: 866.064 (in 65 Ordnern); Instrumente: 31 (5-min, laufend geführt); Jahre Historie: 16 (ältester Bar 2010); aktive Tage: 152 (letzte 365 Tage)</desc>
+<style>.o{animation:odo .85s cubic-bezier(.2,.85,.2,1) both}@keyframes odo{from{transform:translateY(34px);opacity:0}}</style>
+<rect width="900" height="128" rx="12" fill="#161b22" stroke="#3d444d"/>
+<defs><clipPath id="s00"><rect x="23" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s01"><rect x="40.4" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s02"><rect x="57.8" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s10"><rect x="193.4" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s11"><rect x="210.8" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s12"><rect x="228.2" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s13"><rect x="245.6" y="53" width="10.7" height="37.7"/></clipPath><clipPath id="s14"><rect x="254.3" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s15"><rect x="271.7" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s16"><rect x="289.1" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s20"><rect x="363.8" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s21"><rect x="381.2" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s30"><rect x="534.2" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s31"><rect x="551.6" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s40"><rect x="704.6" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s41"><rect x="722" y="53" width="19.4" height="37.7"/></clipPath><clipPath id="s42"><rect x="739.4" y="53" width="19.4" height="37.7"/></clipPath></defs>
+<text x="24" y="44" fill="#6e7681" font-size="10" font-weight="600" letter-spacing="0.08em">GB DATEN</text>
+<g clip-path="url(#s00)"><text x="24" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.12s">4</text></g>
+<g clip-path="url(#s01)"><text x="41.4" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.17s">7</text></g>
+<g clip-path="url(#s02)"><text x="58.8" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.22s">5</text></g>
+<text x="24" y="104" fill="#9198a1" font-size="11.5">geprüft und katalogisiert</text>
+<line x1="186.4" y1="32" x2="186.4" y2="100" stroke="#3d444d"/>
+<text x="194.4" y="44" fill="#6e7681" font-size="10" font-weight="600" letter-spacing="0.08em">DATEIEN</text>
+<g clip-path="url(#s10)"><text x="194.4" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.21s">8</text></g>
+<g clip-path="url(#s11)"><text x="211.8" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.26s">6</text></g>
+<g clip-path="url(#s12)"><text x="229.2" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.31s">6</text></g>
+<g clip-path="url(#s13)"><text x="246.6" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.36s">.</text></g>
+<g clip-path="url(#s14)"><text x="255.3" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.41s">0</text></g>
+<g clip-path="url(#s15)"><text x="272.7" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.46s">6</text></g>
+<g clip-path="url(#s16)"><text x="290.1" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.51s">4</text></g>
+<text x="194.4" y="104" fill="#9198a1" font-size="11.5">in 65 Ordnern</text>
+<line x1="356.8" y1="32" x2="356.8" y2="100" stroke="#3d444d"/>
+<text x="364.8" y="44" fill="#6e7681" font-size="10" font-weight="600" letter-spacing="0.08em">INSTRUMENTE</text>
+<g clip-path="url(#s20)"><text x="364.8" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.3s">3</text></g>
+<g clip-path="url(#s21)"><text x="382.2" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.35s">1</text></g>
+<text x="364.8" y="104" fill="#9198a1" font-size="11.5">5-min, laufend geführt</text>
+<line x1="527.2" y1="32" x2="527.2" y2="100" stroke="#3d444d"/>
+<text x="535.2" y="44" fill="#6e7681" font-size="10" font-weight="600" letter-spacing="0.08em">JAHRE HISTORIE</text>
+<g clip-path="url(#s30)"><text x="535.2" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.39s">1</text></g>
+<g clip-path="url(#s31)"><text x="552.6" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.44s">6</text></g>
+<text x="535.2" y="104" fill="#9198a1" font-size="11.5">ältester Bar 2010</text>
+<line x1="697.6" y1="32" x2="697.6" y2="100" stroke="#3d444d"/>
+<text x="705.6" y="44" fill="#6e7681" font-size="10" font-weight="600" letter-spacing="0.08em">AKTIVE TAGE</text>
+<g clip-path="url(#s40)"><text x="705.6" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.48s">1</text></g>
+<g clip-path="url(#s41)"><text x="723" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.53s">5</text></g>
+<g clip-path="url(#s42)"><text x="740.4" y="82" fill="#e6edf3" font-size="29" font-weight="700" class="o" style="animation-delay:0.58s">2</text></g>
+<text x="705.6" y="104" fill="#9198a1" font-size="11.5">letzte 365 Tage</text>
+</svg>

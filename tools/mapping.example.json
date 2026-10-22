@@ -1,0 +1,47 @@
+{
+ "_note": "Copy to mapping.local.json and fill in. Neither the folder paths nor the stripped tokens are published: the snapshot only carries the family name.",
+ "families": [
+  [
+   "path/to/store",
+   "Store"
+  ],
+  [
+   "path/to/archives",
+   "Vendor-Archive"
+  ],
+  [
+   "path/to/tapes",
+   "Tapes"
+  ],
+  [
+   "path/to/live",
+   "Live-Daten"
+  ]
+ ],
+ "strip": [
+  "<venue-name>",
+  "<vendor-name>",
+  "futures",
+  "spot",
+  "usd",
+  "usdt",
+  "csv"
+ ],
+ "timeframes": {
+  "5min": "5m",
+  "5m": "5m",
+  "1min": "1m",
+  "1m": "1m",
+  "30min": "30m",
+  "30m": "30m",
+  "1h": "1h",
+  "1d": "1d"
+ },
+ "sources": {
+  "catalog": "path/to/DATA_CATALOG.md",
+  "tape_globs": [
+   "path/to/tapes/*_5min.csv"
+  ],
+  "reference_tape": "path/to/tapes/<reference>_5min.csv"
+ }
+}
